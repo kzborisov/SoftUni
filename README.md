@@ -1,5 +1,6 @@
 # Software University - Learning Path
-## 1. [Programming Basics with JavaScript](https://github.com/kzborisov/softuni/tree/main/programmingBasicsJS)
+## 1. Programming Basics with JavaScript
+Solution of the problems(https://github.com/kzborisov/softuni/tree/main/programmingBasicsJS)
 The Programming Basics course introduces basic programming concepts.
 This includes writing basic source code, working with an IDE, using variables, data types, operators and working with the console (reading input and writing output to the console). Introduction to conditional statements (if-else) and loops (for, while, do-while).
 
