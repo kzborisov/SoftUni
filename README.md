@@ -1,1 +1,1 @@
-# softuni
+# Software University - Learning Path
