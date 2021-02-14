@@ -10,11 +10,11 @@ function numCheck(input) {
         result = 'Less than 100';
     }
     else if (num1 > 200) {
-        result = 'Grater than 200'; 
+        result = 'Greater than 200'; 
     } else {
         result = 'Between 100 and 200';
     }
-    // Print result formated to .00
+    // Print result
     console.log(result);
 }
 

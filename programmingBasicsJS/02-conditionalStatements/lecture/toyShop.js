@@ -16,7 +16,7 @@ function toyStore(input) {
     totalPrice = (puzzleCount * 2.60) + (dollsCount * 3) + (teddyBearsCount * 4.10) + (minionsCount * 8.20) + (truckCount * 2);
     toysTotalCount = puzzleCount + dollsCount + teddyBearsCount + minionsCount + truckCount;
 
-    if (toysTotalCount > 50) {
+    if (toysTotalCount >= 50) {
         // 25% Discount
         totalPrice = totalPrice - (totalPrice * 0.25);
     }
