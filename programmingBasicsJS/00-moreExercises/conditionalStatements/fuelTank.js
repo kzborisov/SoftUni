@@ -20,8 +20,6 @@ function fuelTank(input) {
     } else if(litters < 25) {
         console.log(`Fill your tank with ${fuelType.toLowerCase()}!`)
     }
-
-
 }
 
 fuelTank(["Diesel", "10"]);
