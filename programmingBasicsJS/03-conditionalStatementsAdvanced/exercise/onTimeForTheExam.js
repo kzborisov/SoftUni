@@ -1,52 +1,49 @@
-// Task 7 - Hotel Room
+// Task 8 - On Time For Exam
 
-function hotelRoom(input) {
+function onTimeForExam(input) {
     // Read Input Data
-    let month = input[0];
-    let nightsCount = Number(input[1]);
-
+    let examHour = Number(input[0]);
+    let examMinute = Number(input[1]);
+    let arivalHour = Number(input[2]);
+    let arrivalMinute = Number(input[3]);
+   
     // Logic
-    let studioPrice = 0;
-    let apartmentPrice = 0;
+    let examTotalTime = (examHour * 60) + examMinute;
+    let arivalTotalTime = (arivalHour * 60) + arrivalMinute;
 
-    let studioPriceMap = {
-        "May": 50,
-        "October": 50,
-        "June": 75.20,
-        "September": 75.20,
-        "July": 76,
-        "August": 76
-    };
+    let status = "";
+    let result = "";
 
-    let apartmentPriceMap = {
-        "May": 65,
-        "October": 65,
-        "June": 68.70,
-        "September": 68.70,
-        "July": 77,
-        "August": 77
-    };
+    if (examTotalTime < arivalTotalTime) {
+        status = "Late";
+    } else if (examTotalTime === arivalTotalTime || examTotalTime <= arivalTotalTime + 30) {
+        status = "On time";
+    } else if (examTotalTime > arivalTotalTime) {
+        status = "Early";
+    }
 
-    studioPrice = nightsCount * studioPriceMap[month];
-    apartmentPrice = nightsCount * apartmentPriceMap[month];
 
-    if (nightsCount > 14) {
-        if (month === "May" || month === "October") {
-            studioPrice *= 0.70;
-        } else if (month === "June" || month === "September") {
-            studioPrice *= 0.80;
+
+    if (!(examTotalTime === arivalTotalTime)) {
+        let hour = Math.floor(Math.abs((examTotalTime - arivalTotalTime) / 60));
+        let minutes = Math.abs((examTotalTime - arivalTotalTime) % 60);
+
+        if (hour >= 1 && minutes < 10) {
+            minutes = `0${minutes}`;
         }
-        apartmentPrice *= 0.90;
-    } else if (nightsCount > 7) {
-        if (month === "May" || month === "October") {
-            studioPrice *= 0.95;
+
+        if (status === "Late" && hour >= 1) {
+            result = `${hour}:${minutes} hours after the start`;
+        } else if(status === "Late") {
+            result = `${minutes} minutes after the start`;
+        } else if (status === "Early" && hour >= 1) {
+            result = `${hour}:${minutes} hours before the start`;
+        } else if (status === "Early" || status === "On time") {
+            result = `${minutes} minutes before the start`;
         }
     }
 
     // Print Result
-    console.log(`Apartment: ${apartmentPrice.toFixed(2)} lv.`);
-    console.log(`Studio: ${studioPrice.toFixed(2)} lv.`);
+    console.log(status);
+    console.log(result);
 }
-
-hotelRoom(["June",
-"14"]);
