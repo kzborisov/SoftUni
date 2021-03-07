@@ -6,6 +6,7 @@ The Programming Basics course introduces basic programming concepts.
 This includes writing basic source code, working with an IDE, using variables, data types, operators and working with the console (reading input and writing output to the console). Introduction to conditional statements (if-else) and loops (for, while, do-while).
 
 ## 2. Programming Fundamentals with Python - May 2021
+[Solved Problems](None)
 With "Programming Fundamentals" the students go deeper into the SoftUni learning path. The course is going over fundamental programming concepts, that lay beneth the efective trainings in the Professional modules. The students upgrade the knowledge aquired in the Programming Basics course and start to use more complex programming skills and methods like:
 arrays, lists, objects and classes.
 
