@@ -11,8 +11,8 @@ Click [here](https://softuni.bg/trainings/3300/programming-basics-with-javascrip
 6. Nested Conditional Statements - Exercise - 21.02.2021 - [Solution](https://github.com/kzborisov/softuni/tree/main/programmingBasicsJS/03-conditionalStatementsAdvanced/exercise)
 7. For Loop - Lecture - 27.02.2021 - [Solution](https://github.com/kzborisov/softuni/tree/main/programmingBasicsJS/04-forLoop/lecture)
 8. For Loop - Exercise - 28.02.2021 - [Solution](https://github.com/kzborisov/softuni/tree/main/programmingBasicsJS/04-forLoop/exercise)
-9. While Loop - Lecture - 07.03.2021
-10. While Loop - Exercise - 08.03.2021
+9. While Loop - Lecture - 06.03.2021 - [Solution](https://github.com/kzborisov/softuni/tree/main/programmingBasicsJS/05-whileLoop/lecture)
+10. While Loop - Exercise - 07.03.2021 - [Solution](https://github.com/kzborisov/softuni/tree/main/programmingBasicsJS/05-whileLoop/exercise)
 11. Nested Loops - Lecture - 13.03.2021
 12. Nested Loops - Exercise - 14.03.2021
 13. Exam Preparation - 20.03.2021
