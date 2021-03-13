@@ -13,7 +13,7 @@ Click [here](https://softuni.bg/trainings/3300/programming-basics-with-javascrip
 8. For Loop - Exercise - 28.02.2021 - [Solution](https://github.com/kzborisov/softuni/tree/main/programmingBasicsJS/04-forLoop/exercise)
 9. While Loop - Lecture - 06.03.2021 - [Solution](https://github.com/kzborisov/softuni/tree/main/programmingBasicsJS/05-whileLoop/lecture)
 10. While Loop - Exercise - 07.03.2021 - [Solution](https://github.com/kzborisov/softuni/tree/main/programmingBasicsJS/05-whileLoop/exercise)
-11. Nested Loops - Lecture - 13.03.2021
+11. Nested Loops - Lecture - 13.03.2021 - [Solution](https://github.com/kzborisov/softuni/tree/main/Programming%20Basics%20With%20JS%20(February%202021)/06-nestedLoops/lecture)
 12. Nested Loops - Exercise - 14.03.2021
 13. Exam Preparation - 20.03.2021
 14. Preliminary Exam - 20-21.03.2021
