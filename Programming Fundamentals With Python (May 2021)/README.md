@@ -1,6 +1,6 @@
 # Programming Fundamentals with Python - May 2021
 
-Click [here](https://softuni.bg/trainings/3300/programming-basics-with-javascript-february-2021/internal) to view the course.
+Click [here](https://softuni.bg/trainings/3368/python-fundamentals-may-2021/internal) to view the course.
 
 ## Course curriculum:
 1. Basic Syntax, Conditional Statements and Loops - Lecture - 19.05.2021
