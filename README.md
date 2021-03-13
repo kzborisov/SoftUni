@@ -14,4 +14,4 @@ arrays, lists, objects and classes.
 Additional technologies learned in the course are HTML, CSS, HTTP, bitwise operations which are a must for every web developer. The basics of Web development are studied thoroughly and by doing so, the students are better prepared for the upcomming professional modules and their path to becoming successful Web Developers.
 
 # License
-[SoftUni](https://softuni.bg/trainings/3300/programming-basics-with-javascript-february-2021)
+[SoftUni](https://softuni.bg)
