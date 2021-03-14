@@ -27,7 +27,6 @@ Additional technologies learned in the course are HTML, CSS, HTTP, bitwise opera
 ## 2. Professional Modules - Python Web Developer
 
 ### 2.1 Python Advanced
-[Solved Problems]<br>
 __Months: 4__
 
 In the "Python Advanced" module, students learn the Python language in depth, learning more serious and complex programming concepts, such as tulips, stacks, queues, matrices, and their application in practice. In addition, students will learn to use basic concepts in object-oriented programming and create their own projects using these concepts. As a result of the acquired knowledge, at the end of the module students will be able to build large projects, to navigate in them, applying popular methodologies and good practices for writing code. The focus is on upgrading students' algorithmic thinking and solving more complex architectural problems.
