@@ -4,8 +4,7 @@ SoftUni's software engineering curriculum is a combination of programming and te
 
 The curriculum consists of several professional fields and subsequent specializations, built from specially selected training modules. Each training module contains courses with a strong focus on practice. and at the end of each course, students go through a practical exam, demonstrating the acquired skills.
 
-__Python Full-Stack Developer - 130 credits__<br>
-__Python Full-Stack Developer - 22 Months__<br>
+__Python Full-Stack Developer - 22 Months | 130 credits__<br>
 
 ## 1. Programming Basics with JavaScript - February 2021
 [Solved Problems](https://github.com/kzborisov/softuni/tree/main/Programming%20Basics%20With%20JS%20(February%202021))<br>
