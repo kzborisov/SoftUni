@@ -16,7 +16,7 @@ The Programming Basics course introduces basic programming concepts.
 This includes writing basic source code, working with an IDE, using variables, data types, operators and working with the console (reading input and writing output to the console). Introduction to conditional statements (if-else) and loops (for, while, do-while).
 
 ## 2. Programming Fundamentals with Python - May 2021
-[Solved Problems]<br>
+[Solved Problems](https://github.com/kzborisov/softuni/tree/main/Programming%20Fundamentals%20With%20Python%20(May%202021))<br>
 __Credits: 12__
 __Months: 4__<br>
 __Grade:__
