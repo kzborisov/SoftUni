@@ -3,11 +3,6 @@
 budget = float(input())
 flour = float(input())
 
-recipe = {
-    'eggs': 1,
-    'flour': 1,
-    'milk': 0.250
-}
 prices = {
     'eggs': flour * 0.75,
     'milk': (flour * 1.25) / 4,

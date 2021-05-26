@@ -2,8 +2,8 @@
 
 divisor = int(input())
 bound = int(input())
-
-for n in range(1, bound+1):
+largest = 0
+for n in range(divisor+1, bound+1):
     if n % divisor == 0:
         largest = n
 
