@@ -1,0 +1,11 @@
+NOTES
+
+set()
+set(x) -> x can only be string
+It returns the number of unique characters in the string
+
+e.g.
+set('1234') -> {1,2,3,4}
+set('12344444') -> {1,2,3,4}
+len(set('1234')) -> 4
+len(set('12344444')) -> 4
