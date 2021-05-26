@@ -5,7 +5,8 @@ Click [here](https://softuni.bg/trainings/3368/python-fundamentals-may-2021/inte
 ## Course curriculum:
 1. [Basic Syntax, Conditional Statements and Loops - Lecture - 19.05.2021](https://github.com/kzborisov/softuni/tree/main/Programming%20Fundamentals%20With%20Python%20(May%202021)/01.Basic%20Syntax%2C%20Conditional%20Statements%20and%20Loops)
 2. [Basic Syntax, Conditional Statements and Loops - Exercise - 21.05.2021](https://github.com/kzborisov/softuni/tree/main/Programming%20Fundamentals%20With%20Python%20(May%202021)/02.EXERCISE:%20BASIC%20SYNTAX%2C%20CONDITIONAL%20STATEMENTS%20AND%20LOOPS)
-3. HTTP Basics - 25.05.20214. Data Types and Variables - Lecture - 26.05.2021
+3. [HTTP Basics - 25.05.2021](https://github.com/kzborisov/softuni/tree/main/Programming%20Fundamentals%20With%20Python%20(May%202021)/03.%20Http%20Basics)
+4. Data Types and Variables - Lecture - 26.05.2021
 5. Data Types and Variables - Exercise - 28.05.2021
 6. HTML & CSS Basics - 01.06.2021
 7. Lists Basics - Lecture - 02.06.2021
