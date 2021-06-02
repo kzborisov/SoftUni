@@ -2,7 +2,7 @@
 n = int(input())
 positives = []
 negatives = []
-for i in range(n):
+for _ in range(n):
     num = int(input())
     if num >= 0:
         positives.append(num)

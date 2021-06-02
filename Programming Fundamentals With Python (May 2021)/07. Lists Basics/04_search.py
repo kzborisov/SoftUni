@@ -4,7 +4,7 @@ word = input()
 
 strings_list = []
 
-for i in range(n):
+for _ in range(n):
     some_string = input()
     strings_list.append(some_string)
 
