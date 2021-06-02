@@ -10,7 +10,7 @@ Click [here](https://softuni.bg/trainings/3368/python-fundamentals-may-2021/inte
 5. [Data Types and Variables - Exercise - 28.05.2021](https://github.com/kzborisov/softuni/tree/main/Programming%20Fundamentals%20With%20Python%20(May%202021)/05.%20Exercise:%20Data%20Types%20and%20Variables)
 6. [HTML & CSS Basics - 01.06.2021](https://github.com/kzborisov/softuni/tree/main/Programming%20Fundamentals%20With%20Python%20(May%202021)/06.%20HTML%20and%20CSS%20basics)
 7. [Lists Basics - Lecture - 02.06.2021](https://github.com/kzborisov/softuni/tree/main/Programming%20Fundamentals%20With%20Python%20(May%202021)/07.%20Lists%20Basics)
-   [8. Lists Basics - Exercise - 04.06.2021](https://github.com/kzborisov/softuni/tree/main/Programming%20Fundamentals%20With%20Python%20(May%202021)/08.%20Exercise:%20Lists%20Basics)
+8. [Lists Basics - Exercise - 04.06.2021](https://github.com/kzborisov/softuni/tree/main/Programming%20Fundamentals%20With%20Python%20(May%202021)/08.%20Exercise:%20Lists%20Basics)
 9. Software Development Concepts Part 1 - 08.06.2021
 10. Functions - Lecture - 09.06.2021
 11. Functions - Exercise - 11.06.2021
