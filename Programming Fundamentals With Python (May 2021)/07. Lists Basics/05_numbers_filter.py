@@ -1,32 +1,20 @@
-# Task 05. Numbers Filter
 n = int(input())
-
-positive = []
-negative = []
-even = []
-odd = []
+integers = []
 
 for _ in range(n):
-    num = int(input())
-    if num % 2 == 0:
-        even.append(num)
-    elif num % 2 == 1:
-        odd.append(num)
+    curr_int = int(input())
+    integers.append(curr_int)
 
-    if num >= 0:
-        positive.append(num)
-    else:
-        negative.append(num)
+cmd = input()
 
-category = input()
-categories = {
-    'positive': positive,
-    'negative': negative,
-    'even': even,
-    'odd': odd
-}
 
-try:
-    print(categories[category])
-except KeyError as e:
-    print('Invalid category')
+if cmd == 'positive':
+    result = [x for x in integers if x >= 0]
+elif cmd == 'negative':
+    result = [x for x in integers if x < 0]
+elif cmd == 'even':
+    result = [x for x in integers if x % 2 == 0]
+elif cmd == 'odd':
+    result = [x for x in integers if x % 2 == 1]
+
+print(result)

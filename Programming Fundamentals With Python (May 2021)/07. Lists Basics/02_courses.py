@@ -1,7 +1,7 @@
 # Task 02. Courses
 n = int(input())
 courses = []
-for i in range(n):
+for _ in range(n):
     course = input()
     courses.append(course)
 
