@@ -12,7 +12,7 @@ Click [here](https://softuni.bg/trainings/3368/python-fundamentals-may-2021/inte
 7. [Lists Basics - Lecture - 02.06.2021](https://github.com/kzborisov/softuni/tree/main/Programming%20Fundamentals%20With%20Python%20(May%202021)/07.%20Lists%20Basics)
 8. [Lists Basics - Exercise - 04.06.2021](https://github.com/kzborisov/softuni/tree/main/Programming%20Fundamentals%20With%20Python%20(May%202021)/08.%20Exercise:%20Lists%20Basics)
 9. Software Development Concepts Part 1 - 08.06.2021
-10. Functions - Lecture - 09.06.2021
+10. [Functions - Lecture - 09.06.2021](https://github.com/kzborisov/softuni/tree/main/Programming%20Fundamentals%20With%20Python%20(May%202021)/10.%20Functions)
 11. Functions - Exercise - 11.06.2021
 12. Software Development Concepts Part 2 - 15.06.2021
 13. Lists Advanced - Lecture - 16.06.2021
