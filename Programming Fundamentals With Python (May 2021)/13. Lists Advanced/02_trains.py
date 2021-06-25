@@ -1,7 +1,7 @@
 # Task 02. Trains
 
 wagons = int(input())
-train = [0 for _ in range(wagons)]
+train = [0] * wagons
 
 command = input()
 
