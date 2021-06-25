@@ -1,6 +1,6 @@
 # Task 11. Inventory
 def collect(lst, item):
-    if not item in lst:
+    if item not in lst:
         lst.append(item)
 
 
@@ -40,4 +40,4 @@ while not command == "Craft!":
 
     command = input()
 
-print(", ".join(collecting_items))
+print(*collecting_items, sep=", ")

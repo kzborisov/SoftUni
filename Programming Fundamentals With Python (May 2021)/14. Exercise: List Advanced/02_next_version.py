@@ -12,4 +12,10 @@ else:
         curr_version[-2] = 0
         curr_version[-3] = curr_version[-3] + 1
 
-print(".".join([str(x) for x in curr_version]))
+print(*curr_version, sep=".")
+
+
+# Solution From the Exercise:
+curr_version = input().split(".")
+curr_version = list(str(int("".join(curr_version)) + 1))
+print(*curr_version, sep=".")
