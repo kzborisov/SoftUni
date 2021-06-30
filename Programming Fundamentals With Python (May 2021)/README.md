@@ -20,8 +20,8 @@ Click [here](https://softuni.bg/trainings/3368/python-fundamentals-may-2021/inte
 15. [Bitwise Operations - 22.06.2021](https://github.com/kzborisov/softuni/tree/main/Programming%20Fundamentals%20With%20Python%20(May%202021)/15.%20Bitwise%20Operations)
 16. [Objects And Classes - Lecture - 23.06.2021](https://github.com/kzborisov/softuni/tree/main/Programming%20Fundamentals%20With%20Python%20(May%202021)/16.%20Objects%20and%20Classes)
 17. [Objects And Classes - Exercise - 25.06.2021](https://github.com/kzborisov/softuni/tree/main/Programming%20Fundamentals%20With%20Python%20(May%202021)/17.%20Exercise:%20Objects%20and%20Classes)
-18. Exam Preparation - 30.06.2021
-19. Mid Exam - 03.07.2021
+18. [Exam Preparation - 30.06.2021](https://github.com/kzborisov/softuni/tree/main/Programming%20Fundamentals%20With%20Python%20(May%202021)/18.%20Mid%20Exam%20Preparation/)
+19. Mid Exam - 10.07.2021
 20. Dictionaries  - Lecture - 14.07.2021
 21. Dictionaries - Exercise - 16.07.2021
 22. Problem Solving - 20.07.2021
