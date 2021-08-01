@@ -28,7 +28,7 @@ Click [here](https://softuni.bg/trainings/3368/python-fundamentals-may-2021/inte
 23. [Text Processing - Lecture - 21.07.2021](https://github.com/kzborisov/softuni/tree/main/Programming%20Fundamentals%20With%20Python%20(May%202021)/22.%20Text%20Processing)
 24. [Text Processing - Exercise - 23.07.2021](https://github.com/kzborisov/softuni/tree/main/Programming%20Fundamentals%20With%20Python%20(May%202021)/23.%20Exercise%20-%20Text%20Processing)
 25. Database Basics - 27.07.2021
-26. Regular Expressions - Lecture - 28.07.2021
+26. [Regular Expressions - Lecture - 28.07.2021](https://github.com/kzborisov/softuni/tree/main/Programming%20Fundamentals%20With%20Python%20(May%202021)/24.%20Regular%20Expressions)
 27. Regular Expressions - Exercise - 30.07.2021
 28. Git And GitHub - 03.08.2021
 29. Exam Preparation - 04.08.2021
