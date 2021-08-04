@@ -27,7 +27,7 @@ Click [here](https://softuni.bg/trainings/3368/python-fundamentals-may-2021/inte
 18. [Text Processing - Exercise - 23.07.2021](23.%20Exercise%20-%20Text%20Processing)
 19. [Regular Expressions - Lecture - 28.07.2021](24.%20Regular%20Expressions)
 20. [Regular Expressions - Exercise - 30.07.2021](25.%20Exercise%20-%20Regular%20Expressions)
-21. Exam Preparation - 04.08.2021 /  06.08.2021
+21. [Exam Preparation - 04.08.2021 /  06.08.2021](26.%20Exam%20Preparation)
 22. Basic Web Projects - 11.08.2021
 23. Practical Exam - 15.08.2021
 24. Retake Mid Exam - 18.08.2021
