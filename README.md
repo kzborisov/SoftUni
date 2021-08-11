@@ -12,7 +12,7 @@ The curriculum consists of several professional fields and subsequent specializa
 
 | Credits  | Months | Grade | Solved Problems | Certificate | Course @SoftUni |
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |:-------------: |
-| 3  | 2  | 6.00 | [Solutions](Programming%20Basics%20With%20JS%20(February%202021)) | [Click Here](https://softuni.bg/certificates/details/101875/3aff3701) | [See Here](https://softuni.bg/trainings/3300/programming-basics-with-javascript-february-2021/internal)
+| 3  | 2  | 6.00 | [Solutions](1.%20Programming%20Basics%20With%20JS%20(February%202021)) | [Click Here](https://softuni.bg/certificates/details/101875/3aff3701) | [See Here](https://softuni.bg/trainings/3300/programming-basics-with-javascript-february-2021/internal)
 
 The __Programming Basics__ course introduces basic programming concepts.
 This includes writing basic source code, working with an IDE, using variables, data types, operators and working with the console (reading input and writing output to the console). Introduction to conditional statements (if-else) and loops (for, while, do-while).
@@ -21,7 +21,7 @@ This includes writing basic source code, working with an IDE, using variables, d
 
 | Credits  | Months | Grade | Solved Problems | Certificate | Course @SoftUni |
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
-| 12  | 4  |  | [Solutions](Programming%20Fundamentals%20With%20Python%20(May%202021)) |  | [See Here](https://softuni.bg/trainings/3368/python-fundamentals-may-2021/internal) |
+| 12  | 4  |  | [Solutions](2.%20Programming%20Fundamentals%20With%20Python%20(May%202021)) |  | [See Here](https://softuni.bg/trainings/3368/python-fundamentals-may-2021/internal) |
 
 With __"Programming Fundamentals"__ the students go deeper into the SoftUni learning path. The course is going over fundamental programming concepts, that lay beneath the effective trainings in the Professional modules. The students upgrade the knowledge acquired in the Programming Basics course and start to use more complex programming skills and methods like:
 arrays, lists, objects and classes.
