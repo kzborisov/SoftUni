@@ -4,28 +4,29 @@ SoftUni's software engineering curriculum is a combination of programming and te
 
 The curriculum consists of several professional fields and subsequent specializations, built from specially selected training modules. Each training module contains courses with a strong focus on practice. and at the end of each course, students go through a practical exam, demonstrating the acquired skills.
 
-__Python Full-Stack Developer - 22 Months<br>
-Credits: 6/130__<br>
+| Credits  | Months |
+| :-------------: | :-------------: | 
+| 3/130  | 22  |
 
 ## 1. Programming Basics with JavaScript - February 2021
-[Solved Problems](https://github.com/kzborisov/softuni/tree/main/Programming%20Basics%20With%20JS%20(February%202021))<br>
-__Credits: 3__
-__Months: 2__<br>
-__Grade: 6.00__
+
+| Credits  | Months | Grade | Solved Problems | Certificate | 
+| :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
+| 3  | 2  | 6.00 | [Solutions](Programming%20Basics%20With%20JS%20(February%202021)) | [Click Here](https://softuni.bg/certificates/details/101875/3aff3701)
 
 The Programming Basics course introduces basic programming concepts.
 This includes writing basic source code, working with an IDE, using variables, data types, operators and working with the console (reading input and writing output to the console). Introduction to conditional statements (if-else) and loops (for, while, do-while).
 
 ## 2. Programming Fundamentals with Python - May 2021
-[Solved Problems](https://github.com/kzborisov/softuni/tree/main/Programming%20Fundamentals%20With%20Python%20(May%202021))<br>
-__Credits: 12__
-__Months: 4__<br>
-__Grade:__
 
-With "Programming Fundamentals" the students go deeper into the SoftUni learning path. The course is going over fundamental programming concepts, that lay beneth the efective trainings in the Professional modules. The students upgrade the knowledge aquired in the Programming Basics course and start to use more complex programming skills and methods like:
+| Credits  | Months | Grade | Solved Problems | Certificate | 
+| :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
+| 12  | 4  |  | [Solutions](Programming%20Fundamentals%20With%20Python%20(May%202021)) | 
+
+With "Programming Fundamentals" the students go deeper into the SoftUni learning path. The course is going over fundamental programming concepts, that lay beneath the effective trainings in the Professional modules. The students upgrade the knowledge acquired in the Programming Basics course and start to use more complex programming skills and methods like:
 arrays, lists, objects and classes.
 
-Additional technologies learned in the course are HTML, CSS, HTTP, bitwise operations which are a must for every web developer. The basics of Web development are studied thoroughly and by doing so, the students are better prepared for the upcomming professional modules and their path to becoming successful Web Developers.
+Additional technologies learned in the course are HTML, CSS, HTTP, bitwise operations which are a must for every web developer. The basics of Web development are studied thoroughly and by doing so, the students are better prepared for the upcoming professional modules and their path to becoming successful Web Developers.
 
 ## 2. Professional Modules - Python Web Developer
 
@@ -39,7 +40,7 @@ In the "Python Advanced" module, students learn the Python language in depth, le
 [Solved Problems]<br>
 __Grade:__
 
-he Python Advanced course builds on Python language skills by addressing more complex language-specific concepts (such as modules and comprehension). In the course you will learn to create linear data structures, solve algorithmic problems (problem solving skills), work with stacks and queues (Stacks & Queues), tuples and sets (Tuples & Sets), matrices (Multidimensional Lists), files and directories. Attention will be paid to the functional programming paradigm. You will take a closer look at lamba functions, recursive functions, and multi-argument functions. The development environment that will be used by the training team is PyCharm, but each student is free to use tools of their choice.
+The Python Advanced course builds on Python language skills by addressing more complex language-specific concepts (such as modules and comprehension). In the course you will learn to create linear data structures, solve algorithmic problems (problem-solving skills), work with stacks and queues (Stacks & Queues), tuples and sets (Tuples & Sets), matrices (Multidimensional Lists), files and directories. Attention will be paid to the functional programming paradigm. You will take a closer look at lambda functions, recursive functions, and multi-argument functions. The development environment that will be used by the training team is PyCharm, but each student is free to use tools of their choice.
 
 #### 2.1.2 Python OOP
 [Solved Problems]<br>
@@ -57,7 +58,7 @@ The Python Web module examines the basics of web-based technology and the most p
 [Solved Problems]<br>
 __Grade:__
 
-In the Python Web Basics course we will lay the basics of Web programming with Python and Django. We will get acquainted with the basic principles of web development, such as HTTP Protocol, we will learn to work with databases (SQL), we will create our own server and we will get acquainted with the basic concepts in the MVC architecture.
+In the Python Web Basics course we will lay the basics of Web programming with Python and Django. We will get acquainted with the basic principles of web development, such as HTTP Protocol, we will learn to work with databases (SQL), we will create our own server, and we will get acquainted with the basic concepts in the MVC architecture.
 
 #### 2.2.2 Python Web Framework
 [Solved Problems]<br>
@@ -81,7 +82,7 @@ In the "JS Advanced" course you will gain in-depth knowledge of the JavaScript l
 [Solved Problems]<br>
 __Grade:__
 
-In the "JS Applications" course you will learn what HTTP requests are and how to use them. You will learn about REST Services, what a Baas (backend as a service) is and how to work with it, what asynchronous code means (Promises, using async / await), what Templating and Routing are. During the course you will create a Single Page Application, using the learned techniques from previous lectures, where you will be evaluated. You will learn what the architecture of an application is and how to properly structure your applications. Towards the end of the course you will look at different design templates and their practical direction, you will create your own web components using the Web Components standard and you will raise a Wepback environment from scratch.
+In the "JS Applications" course you will learn what HTTP requests are and how to use them. You will learn about REST Services, what a Baas (backend as a service) is and how to work with it, what asynchronous code means (Promises, using async / await), what Templating and Routing are. During the course you will create a Single Page Application, using the learned techniques from previous lectures, where you will be evaluated. You will learn what the architecture of an application is and how to properly structure your applications. Towards the end of the course you will look at different design templates and their practical direction, you will create your own web components using the Web Components standard, and you will raise a Webpack environment from scratch.
 
 ## 3. Specialization - Python Full-Stack Developer
 
