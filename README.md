@@ -30,7 +30,7 @@ Additional technologies learned in the course are HTML, CSS, HTTP, bitwise opera
 
 ## 3. Professional Modules - Python Web Developer
 
-### 3.1 Python Advanced
+### 3.1 Python Advanced - September 2021
 
 | Credits  | Months |
 | :-------------: | :-------------: | 
@@ -38,20 +38,20 @@ Additional technologies learned in the course are HTML, CSS, HTTP, bitwise opera
 
 In the __"Python Advanced"__ module, students learn the Python language in depth, learning more serious and complex programming concepts, such as tulips, stacks, queues, matrices, and their application in practice. In addition, students will learn to use basic concepts in object-oriented programming and create their own projects using these concepts. As a result of the acquired knowledge, at the end of the module students will be able to build large projects, to navigate in them, applying popular methodologies and good practices for writing code. The focus is on upgrading students' algorithmic thinking and solving more complex architectural problems.
 
-#### 3.1.1 Python Advanced
+#### 3.1.1 Python Advanced - September 2021
 
 | Weeks | Grade | Solved Problems | Certificate | Course @SoftUni |
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
-| 7  |  | [Solutions](3.%20Python%20Advanced/3.1%20Python%20Advanced) |  | [See Here](https://softuni.bg/trainings/3489/python-advanced-september-2021) |
+| 7  |  | [Solutions](3. Python Advanced (September 2021)/3.1 Python Advanced (September 2021)) |  | [See Here](https://softuni.bg/trainings/3489/python-advanced-september-2021) |
 
 
 The __Python Advanced__ course builds on Python language skills by addressing more complex language-specific concepts (such as modules and comprehension). In the course you will learn to create linear data structures, solve algorithmic problems (problem-solving skills), work with stacks and queues (Stacks & Queues), tuples and sets (Tuples & Sets), matrices (Multidimensional Lists), files and directories. Attention will be paid to the functional programming paradigm. You will take a closer look at lambda functions, recursive functions, and multi-argument functions. The development environment that will be used by the training team is PyCharm, but each student is free to use tools of their choice.
 
-#### 3.1.2 Python OOP
+#### 3.1.2 Python OOP - October 2021
 
 | Weeks | Grade | Solved Problems | Certificate | Course @SoftUni |
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
-| 8  |  | [Solutions](3.%20Python%20Advanced/3.2%20Python%20OOP) |  | [See Here](https://softuni.bg/trainings/3489/python-advanced-september-2021) |
+| 8  |  | [Solutions](3. Python Advanced (September 2021)/3.2 Python OOP (October 2021)) |  | [See Here](https://softuni.bg/trainings/3489/python-advanced-september-2021) |
 
 The Python OOP course will teach you the principles of object-oriented programming (OOP), work with classes and objects, use object-oriented modeling, and build class hierarchies. The basic principles of OOP such as abstraction (interfaces, abstract classes), encapsulation, inheritance and polymorphism will be studied. We will go into the most commonly used design patterns. We will get acquainted with the SOLID principles for object-oriented software design. We will learn what iterators and generators are and how to use them. We will learn how to create and use decorators. We will pay attention to component testing (writing unit tests) and the concept of Test Driven Development (TDD).
 
