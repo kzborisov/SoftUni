@@ -6,7 +6,7 @@ The curriculum consists of several professional fields and subsequent specializa
 
 | Total Credits  | Total Months |
 | :-------------: | :-------------: | 
-| 3/130  | 6/22  |
+| 18/130  | 6/22  |
 
 ## 1. Programming Basics with JavaScript - February 2021
 
@@ -21,7 +21,7 @@ This includes writing basic source code, working with an IDE, using variables, d
 
 | Credits  | Months | Grade | Solved Problems | Certificate | Course @SoftUni |
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
-| 12  | 4  |  | [Solutions](2.%20Programming%20Fundamentals%20With%20Python%20(May%202021)) |  | [See Here](https://softuni.bg/trainings/3368/python-fundamentals-may-2021/internal) |
+| 12  | 4  | 6.00 | [Solutions](2.%20Programming%20Fundamentals%20With%20Python%20(May%202021)) | [Click Here](https://softuni.bg/certificates/details/110823/6fcca524) | [See Here](https://softuni.bg/trainings/3368/python-fundamentals-may-2021/internal) |
 
 With __"Programming Fundamentals"__ the students go deeper into the SoftUni learning path. The course is going over fundamental programming concepts, that lay beneath the effective trainings in the Professional modules. The students upgrade the knowledge acquired in the Programming Basics course and start to use more complex programming skills and methods like:
 arrays, lists, objects and classes.
