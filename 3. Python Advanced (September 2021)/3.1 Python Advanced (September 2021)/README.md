@@ -10,3 +10,5 @@ Click [here](https://softuni.bg/trainings/3489/python-advanced-september-2021/in
 5. [Exercise - Stacks, Queues, Tuples and Sets](05.%20Exercise%20-%20Stacks,%20Queues,%20Tuples%20and%20Sets)
 6. [Multidimensional Lists](06.%20Multidimensional%20Lists)
 7. [Exercise - Multidimensional Lists](07.Exercise%20-%20Multidimensional%20Lists)
+8. [Exercise - Multidimensional Lists Part II](08.%20Exercise%20-%20Multidimensional%20Lists%20Part%20II)
+9. [Functions Advanced](09.%20Functions%20Advanced)
