@@ -1,0 +1,1 @@
+print(*[int(x) for y in reversed(input().split("|")) for x in y.split()])
