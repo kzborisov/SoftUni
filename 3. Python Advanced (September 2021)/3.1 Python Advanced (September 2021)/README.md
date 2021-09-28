@@ -12,3 +12,4 @@ Click [here](https://softuni.bg/trainings/3489/python-advanced-september-2021/in
 7. [Exercise - Multidimensional Lists](07.Exercise%20-%20Multidimensional%20Lists)
 8. [Exercise - Multidimensional Lists Part II](08.%20Exercise%20-%20Multidimensional%20Lists%20Part%20II)
 9. [Functions Advanced](09.%20Functions%20Advanced)
+10. [Exercise - Functions Advanced](10.%20Exercise%20-%20Functions%20Advanced)
