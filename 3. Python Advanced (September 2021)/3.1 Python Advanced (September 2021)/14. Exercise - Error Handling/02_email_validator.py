@@ -19,7 +19,8 @@ def contains_symbol(email):
 
 
 def valid_domain(email):
-    return email.split(".")[-1] in ["com", "bg", "net", "org"]
+    domain = email.split(".")[-1]
+    return domain in ["com", "bg", "net", "org"] and len(domain) >= 2 and len(domain[0]) > 0
 
 
 while True:
