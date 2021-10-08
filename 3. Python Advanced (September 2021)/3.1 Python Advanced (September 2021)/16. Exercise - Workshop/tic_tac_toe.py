@@ -23,7 +23,7 @@ def read_players_info():
 
 
 def print_board_numeration():
-    print("This is the numberation of the board:")
+    print("This is the numeration of the board:")
     print("| 1 | 2 | 3 |")
     print("| 4 | 5 | 6 |")
     print("| 7 | 8 | 9 |")
