@@ -1,11 +1,28 @@
 from collections import deque
 
+SIZE = 7
+BULLSEYE = (3, 3)
 
-def is_valid_index(r, c, matrix_size):
-    return 0 <= r < matrix_size and 0 <= c < matrix_size
+
+class PLayer:
+    def __init__(self, name):
+        self.name = name
+        self.score = 501
+        self.throws = 0
 
 
-def corresponding_sum(r, c, matrix):
+def read_board(size):
+    matrix = []
+    for r in range(size):
+        matrix.append(input().split())
+    return matrix
+
+
+def is_index_valid(r, c, matrix_size):
+    return r in range(matrix_size) and c in range(matrix_size)
+
+
+def get_corresponding_numbers_sum(r, c, matrix):
     left = int(matrix[r][0])
     right = int(matrix[r][-1])
     up = int(matrix[0][c])
@@ -13,52 +30,33 @@ def corresponding_sum(r, c, matrix):
     return sum([left, right, up, down])
 
 
-size = 7
-players = deque(input().split(", "))
-scores = {
-    players[0]: [501, 0],
-    players[1]: [501, 0],
-}
+player_one_name, player_two_name = input().split(", ")
+board = read_board(SIZE)
+players_turn = deque([PLayer(player_one_name), PLayer(player_two_name)])
 
-board = []
-for row in range(size):
-    board.append(input().split())
-winner = None
+while True:
+    row, col = map(int, input().strip("()").split(", "))
+    player = players_turn.popleft()
+    players_turn.append(player)
+    player.throws += 1
 
-while not winner:
-    # Get the current player
-    current_player = players.popleft()
-    players.append(current_player)
-
-    # Increment each player's throws count
-    scores[current_player][1] += 1
-
-    # Read input
-    line = input()
-    if line == "":
+    if (row, col) == BULLSEYE:
         break
 
-    # Get coordinates
-    x, y = [int(x) for x in line.strip("()").split(", ")]
-
-    # Check for invalid coordinates
-    if not is_valid_index(x, y, size):
+    if not is_index_valid(row, col, SIZE):
         continue
-    current_cell = board[x][y]
+
+    current_cell = board[row][col]
     if current_cell.isdigit():
-        scores[current_player][0] -= int(current_cell)
+        player.score -= int(current_cell)
     elif current_cell == "D":
-        points = corresponding_sum(x, y, board) * 2
-        scores[current_player][0] -= points
+        sum_numbers = get_corresponding_numbers_sum(row, col, board)
+        player.score -= (2 * sum_numbers)
     elif current_cell == "T":
-        points = corresponding_sum(x, y, board) * 3
-        scores[current_player][0] -= points
-    elif current_cell == "B":
-        winner = current_player
+        sum_numbers = get_corresponding_numbers_sum(row, col, board)
+        player.score -= (3 * sum_numbers)
 
-    # Check for winner
-    if scores[current_player][0] <= 0:
-        winner = current_player
+    if player.score <= 0:
+        break
 
-throws = scores[winner][1]
-print(f"{winner} won the game with {throws} throws!")
+print(f"{player.name} won the game with {player.throws} throws!")

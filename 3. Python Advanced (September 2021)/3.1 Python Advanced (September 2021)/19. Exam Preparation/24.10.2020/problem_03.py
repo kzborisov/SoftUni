@@ -1,24 +1,25 @@
 from collections import deque
 
 
-def calculate_pureness(arguments):
-    pureness = 0
-    for index, element in enumerate(arguments):
-        pureness += element * index
-    return pureness
+def best_list_pureness(values, k):
+    def calculate_pureness(values):
+        pureness = 0
+        for index, value in enumerate(values):
+            pureness += index * value
+        return pureness
 
-
-def best_list_pureness(arguments, k):
-    arguments = deque(arguments)
-    pureness_value = calculate_pureness(arguments)
-    count_rotations = 0
-    for i in range(k + 1):
-        current_pureness = calculate_pureness(arguments)
-        if current_pureness > pureness_value:
-            pureness_value = current_pureness
-            count_rotations = i
-        arguments.appendleft(arguments.pop())
-    return f"Best pureness {pureness_value} after {count_rotations} rotations"
+    values = deque(values)
+    k = min(k, len(values))
+    best_rotation = 0
+    best_pureness = calculate_pureness(values)
+    for rotation in range(k + 1):
+        current_pureness = calculate_pureness(values)
+        if best_pureness < current_pureness:
+            best_rotation = rotation
+            best_pureness = current_pureness
+        # values.appendleft(values.pop())
+        values.rotate()
+    return f"Best pureness {best_pureness} after {best_rotation} rotations"
 
 
 test = ([4, 3, 2, 6], 4)
