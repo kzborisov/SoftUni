@@ -1,31 +1,42 @@
 from collections import deque
 
 
-def list_manipulator(numbers, *args):
-    args = deque(args)
-    command = args.popleft()
-    front_or_back = args.popleft()
-    numbers = deque(numbers)
+def add(side, values: deque, numbers=None):
+    if side == "beginning":
+        for number in reversed(numbers):
+            values.appendleft(number)
+    elif side == "end":
+        for number in numbers:
+            values.append(number)
 
-    if command == "add" and front_or_back == "beginning":
-        while args:
-            numbers.appendleft(args.pop())
-    elif command == "add" and front_or_back == "end":
-        while args:
-            numbers.append(args.popleft())
-    elif command == "remove" and front_or_back == "beginning":
-        if args:
-            for i in range(args[0]):
-                numbers.popleft()
+    return list(values)
+
+
+def remove(side, values: deque, number=None):
+    if side == "beginning":
+        if number:
+            for _ in range(number):
+                values.popleft()
         else:
-            numbers.popleft()
-    elif command == "remove" and front_or_back == "end":
-        if args:
-            for i in range(args[0]):
-                numbers.pop()
+            values.popleft()
+    elif side == "end":
+        if number:
+            for _ in range(number):
+                values.pop()
         else:
-            numbers.pop()
-    return list(numbers)
+            values.pop()
+    return list(values)
+
+
+def list_manipulator(values, *args):
+    if args[0] == "add":
+        values = add(args[1], deque(values), args[2:])
+    elif args[0] == "remove":
+        try:
+            values = remove(args[1], deque(values), int(args[2]))
+        except IndexError:
+            values = remove(args[1], deque(values))
+    return values
 
 
 print(list_manipulator([1, 2, 3], "remove", "end"))
