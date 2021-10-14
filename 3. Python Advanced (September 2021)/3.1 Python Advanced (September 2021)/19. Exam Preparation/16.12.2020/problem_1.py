@@ -1,41 +1,49 @@
 from collections import deque
 
-males = [int(x) for x in input().split()]
+males = deque([int(x) for x in input().split()])
 females = deque([int(x) for x in input().split()])
-
 matches = 0
 
-while males and females:
-    male = males[-1]
-    female = females[0]
 
-    if male <= 0:
-        males.pop()
-        continue
-    elif female <= 0:
-        females.popleft()
-        continue
-    elif male % 25 == 0:
-        males.pop()
-        continue
-    elif female % 25 == 0:
-        females.popleft()
-        continue
-    elif male == female:
-        females.popleft()
-        males.pop()
-        matches += 1
+def print_result(matches, males, females):
+    print(f"Matches: {matches}")
+    if not males:
+        print("Males left: none")
     else:
+        print(f"Males left: {', '.join(reversed([str(x) for x in males]))}")
+
+    if not females:
+        print("Females left: none")
+    else:
+        print(f"Females left: {', '.join(str(x) for x in females)}")
+
+
+while males and females:
+    if males[-1] <= 0:
+        males.pop()
+        continue
+
+    if females[0] <= 0:
         females.popleft()
-        males[-1] -= 2
+        continue
 
-print(f"Matches: {matches}")
-if males:
-    print(f"Males left: {', '.join(str(x) for x in reversed(males))}")
-else:
-    print("Males left: none")
+    if males[-1] % 25 == 0:
+        for _ in range(2):
+            males.pop()
+        continue
 
-if females:
-    print(f"Females left: {', '.join(str(x) for x in females)}")
-else:
-    print("Females left: none")
+    if females[0] % 25 == 0:
+        for _ in range(2):
+            females.popleft()
+        continue
+
+    male = males.pop()
+    female = females.popleft()
+
+    if not male == female:
+        males.append(male - 2)
+        continue
+
+    matches += 1
+
+print_result(matches, males, females)

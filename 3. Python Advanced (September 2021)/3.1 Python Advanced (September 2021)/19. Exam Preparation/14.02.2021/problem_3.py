@@ -1,30 +1,39 @@
 from collections import deque
 
 
-def stock_availability(flavors, order_type: str, *args):
-    flavors = deque(flavors)
-    if order_type == "delivery":
-        for arg in args:
-            flavors.append(arg)
-        return list(flavors)
-    else:
-        if not args:
-            flavors.popleft()
-            return list(flavors)
-        if len(args) == 1 and str(args[0]).isdigit():
-            for _ in range(int(args[0])):
-                flavors.popleft()
-            return list(flavors)
-        else:
-            for arg in args:
-                while arg in flavors:
-                    flavors.remove(arg)
-            return list(flavors)
+def deliver(stock: list, boxes):
+    for box in boxes:
+        stock.append(box)
+    return stock
 
+
+def sell(stock: deque, sold=None):
+    if sold:
+        if str(sold[0]).isdigit():
+            for _ in range(int(sold[0])):
+                stock.popleft()
+        elif any(str(x).isalpha() for x in sold):
+            for flavor in sold:
+                while flavor in stock:
+                    stock.remove(flavor)
+        return list(stock)
+    stock.popleft()
+    return list(stock)
+
+
+def stock_availability(stock, action, *args):
+    if action == "delivery":
+        stock = deliver(stock, args)
+    elif action == "sell":
+        if args:
+            stock = sell(deque(stock), args)
+        else:
+            stock = sell(deque(stock))
+    return stock
 
 
 print(stock_availability(["choco", "vanilla", "banana"], "delivery", "caramel", "berry"))
-print(stock_availability(["chocolate", "vanilla", "banana"], "delivery", "cookie","banana"))
+print(stock_availability(["chocolate", "vanilla", "banana"], "delivery", "cookie", "banana"))
 print(stock_availability(["chocolate", "vanilla", "banana"], "sell"))
 print(stock_availability(["chocolate", "vanilla", "banana"], "sell", 3))
 print(stock_availability(["chocolate", "chocolate", "banana"], "sell", "chocolate"))
