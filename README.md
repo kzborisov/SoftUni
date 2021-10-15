@@ -4,9 +4,9 @@ SoftUni's software engineering curriculum is a combination of programming and te
 
 The curriculum consists of several professional fields and subsequent specializations, built from specially selected training modules. Each training module contains courses with a strong focus on practice. and at the end of each course, students go through a practical exam, demonstrating the acquired skills.
 
-| Total Credits  | Total Months |
-| :-------------: | :-------------: | 
-| 18/130  | 6/22  |
+| Average Grade | Total Credits  | Total Months |
+| :-------------: | :-------------: | :-------------: | 
+| 6.00 | 21/130  | 6/22  |
 
 ## 1. Programming Basics with JavaScript - February 2021
 
