@@ -2,4 +2,5 @@ from project.car import Car
 
 
 class FamilyCar(Car):
-    pass
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)

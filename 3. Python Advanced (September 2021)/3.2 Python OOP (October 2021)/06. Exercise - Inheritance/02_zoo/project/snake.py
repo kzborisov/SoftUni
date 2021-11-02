@@ -2,4 +2,6 @@ from project.reptile import Reptile
 
 
 class Snake(Reptile):
-    pass
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+

@@ -2,4 +2,6 @@ from project.mammal import Mammal
 
 
 class Gorilla(Mammal):
-    pass
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
