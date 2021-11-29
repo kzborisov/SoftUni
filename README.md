@@ -129,6 +129,8 @@ The course emphasizes practical exercises with HTML and CSS, through which it in
 The "Front-end Frameworks" course provides knowledge and practical skills for building client applications (Single Page Applications). Learn what Single Page Application (SPA) is, architectural templates for SPA applications and components. During the course a complete SPA application is built and work with forms and data binding, routing, authentication and authentication of registered users is mastered.
 
 ## 5. Additional Courses
+Javascript Web!
+
 AWS?
 Kubernetes?
 MySQL?
