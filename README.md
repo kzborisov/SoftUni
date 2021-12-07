@@ -49,9 +49,9 @@ The __Python Advanced__ course builds on Python language skills by addressing mo
 
 #### 3.1.2 Python OOP - October 2021
 
-| Weeks           |      Grade      | Solved Problems |   Certificate   | Course @SoftUni |
-| :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
-| 8               |                 | [Solutions](3.%20Python%20Advanced%20(September%202021)/3.2%20Python%20OOP%20(October%202021)) |  | [See Here](https://softuni.bg/trainings/3489/python-advanced-september-2021) |
+| Weeks           | Grade | Solved Problems |  Certificate   | Course @SoftUni |
+| :-------------: |:-----:| :-------------: |:--------------:| :-------------: |
+| 8               |  6.00   | [Solutions](3.%20Python%20Advanced%20(September%202021)/3.2%20Python%20OOP%20(October%202021)) | [Click Here]() | [See Here](https://softuni.bg/trainings/3489/python-advanced-september-2021) |
 
 The Python OOP course will teach you the principles of object-oriented programming (OOP), work with classes and objects, use object-oriented modeling, and build class hierarchies. The basic principles of OOP such as abstraction (interfaces, abstract classes), encapsulation, inheritance and polymorphism will be studied. We will go into the most commonly used design patterns. We will get acquainted with the SOLID principles for object-oriented software design. We will learn what iterators and generators are and how to use them. We will learn how to create and use decorators. We will pay attention to component testing (writing unit tests) and the concept of Test Driven Development (TDD).
 
@@ -65,7 +65,7 @@ The Python Web module examines the basics of web-based technology and the most p
 #### 3.2.1 Python Web Basics - January 2022
 | Weeks           | Grade           | Solved Problems | Certificate     | Course @SoftUni |
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
-| 8               |                 | [Solutions]()   |                 |    [See Here]() |
+| 8               |                 | [Solutions](https://softuni.bg/trainings/3595/python-web-basics-january-2022)   |                 |    [See Here]() |
 
 
 In the Python Web Basics course we will lay the basics of Web programming with Python and Django. We will get acquainted with the basic principles of web development, such as HTTP Protocol, we will learn to work with databases (SQL), we will create our own server, and we will get acquainted with the basic concepts in the MVC architecture.
@@ -73,7 +73,7 @@ In the Python Web Basics course we will lay the basics of Web programming with P
 #### 3.2.2 Python Web Framework - March 2022
 | Weeks           | Grade           | Solved Problems | Certificate     | Course @SoftUni |
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
-| 7               |                 | [Solutions]()   |                 |    [See Here]() |
+| 7               |                 | [Solutions](https://softuni.bg/trainings/3596/python-web-framework-march-2022)   |                 |    [See Here]() |
 
 
 In the Python Web Framework course we will go into the details of Python programming using one of the most popular Python frameworks - Django. We will learn how to work with databases in Django (PostgreSQL), how to use template inheritance, how to work with media files. In addition, we will learn how to register, log in and log users. We will also get acquainted with the Django REST Framework. During the course we will practice what we have learned by building many applications.
