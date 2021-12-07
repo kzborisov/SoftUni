@@ -6,7 +6,7 @@ The curriculum consists of several professional fields and subsequent specializa
 
 | Average Grade | Total Credits | Total Months |
 |:-------------:|:-------------:|:------------:|
-|     6.00      |    33/130     |     6/22     |
+|     6.00      |    33/130     |    10/22     |
 
 ## 1. Programming Basics with JavaScript - February 2021
 
