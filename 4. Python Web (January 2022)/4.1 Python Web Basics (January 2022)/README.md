@@ -1,4 +1,4 @@
-# Python Advanced - September 2021
+# Python Web Basics - January 2022
 
 Click [here](https://softuni.bg/trainings/3595/python-web-basics-january-2022) to view the course.
 
