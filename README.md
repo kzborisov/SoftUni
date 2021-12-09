@@ -58,7 +58,7 @@ The Python OOP course will teach you the principles of object-oriented programmi
 ### 3.2 Python Web - January 2022
 | Credits | Months |
 |:-------:|:------:|
-|   24    |   4    |
+|   30    |   4    |
 
 The Python Web module examines the basics of web-based technology and the most popular framework in the world of Python - Django. In addition, students will learn how to handle dynamic information by acquiring basic knowledge of working with databases. Students learn to build web applications, starting with simple applications that require basic knowledge of HTTP protocol and work with it, gradually leading to complex concepts. Throughout the training, students create web applications that face the problems of practice and begin to understand in depth the possibilities of technology. The module ends with the development and protection of their own web applications, which are the first step towards starting their career as software developers.
 
