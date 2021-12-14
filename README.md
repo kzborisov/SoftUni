@@ -6,7 +6,7 @@ The curriculum consists of several professional fields and subsequent specializa
 
 | Average Grade | Total Credits | Total Months |
 |:-------------:|:-------------:|:------------:|
-|     6.00      |    33/130     |    10/22     |
+|     6.00      |    48/130     |    10/22     |
 
 ## 1. Programming Basics with JavaScript - February 2021
 
@@ -49,9 +49,9 @@ The __Python Advanced__ course builds on Python language skills by addressing mo
 
 #### 3.1.2 Python OOP - October 2021
 
-| Weeks | Grade |                                        Solved Problems                                         |  Certificate   |                               Course @SoftUni                                |
-|:-----:|:-----:|:----------------------------------------------------------------------------------------------:|:--------------:|:----------------------------------------------------------------------------:|
-|   8   | 6.00  | [Solutions](3.%20Python%20Advanced%20(September%202021)/3.2%20Python%20OOP%20(October%202021)) | [Click Here]() | [See Here](https://softuni.bg/trainings/3489/python-advanced-september-2021) |
+| Weeks | Grade |                                        Solved Problems                                         |                              Certificate                              |                               Course @SoftUni                                |
+|:-----:|:-----:|:----------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------:|:----------------------------------------------------------------------------:|
+|   8   | 6.00  | [Solutions](3.%20Python%20Advanced%20(September%202021)/3.2%20Python%20OOP%20(October%202021)) | [Click Here](https://softuni.bg/certificates/details/120685/272217f7) | [See Here](https://softuni.bg/trainings/3489/python-advanced-september-2021) |
 
 The Python OOP course will teach you the principles of object-oriented programming (OOP), work with classes and objects, use object-oriented modeling, and build class hierarchies. The basic principles of OOP such as abstraction (interfaces, abstract classes), encapsulation, inheritance and polymorphism will be studied. We will go into the most commonly used design patterns. We will get acquainted with the SOLID principles for object-oriented software design. We will learn what iterators and generators are and how to use them. We will learn how to create and use decorators. We will pay attention to component testing (writing unit tests) and the concept of Test Driven Development (TDD).
 
