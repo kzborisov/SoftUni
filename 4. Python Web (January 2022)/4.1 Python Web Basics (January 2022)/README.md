@@ -5,4 +5,4 @@ Click [here](https://softuni.bg/trainings/3595/python-web-basics-january-2022) t
 ## Course curriculum:
 1. [Django 101](django_101)
 2. [Lab](lab)
-3. [Final Exam](Final Exam)
+3. [Final Exam](Final%20Exam)
