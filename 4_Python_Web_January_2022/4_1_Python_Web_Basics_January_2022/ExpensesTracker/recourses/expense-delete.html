@@ -1,0 +1,47 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./static/css/style.css">
+    <title>Expenses Tracker</title>
+</head>
+
+<body>
+    
+<nav>
+    <ul>
+        <li class="img"><img src="./static/images/dollar.png"></li>
+        <li><a href="/">Expenses Tracker</a></li>
+        
+        <li class="right"><a href="/profile">Profile</a></li>
+        
+    </ul>
+</nav>
+    <div class="body">
+        
+<h1>Delete Expense</h1>
+<div class="form">
+    <form method="POST">
+        <input type="hidden" name="csrfmiddlewaretoken" value="hwapnt8nZjnQuJ2M6SZBuXGgOwc3fZlrekSnnyS6N1CJtVSbSytIlPT26Nac1auc"> 
+        <label for="name">Title</label>
+        <input type="text" name="title" value="Electrical Piano" maxlength="50" disabled="" required="" id="id_title">
+
+        <label for="description">Description</label>
+        <textarea name="description" cols="40" rows="10" disabled="" required="" id="id_description">I bought myself a new piano to improve my skills</textarea>
+
+        <label for="image_url">Link to Image</label>
+        <input type="url" name="image_url" value="https://www.pngkit.com/png/full/307-3075914_free-piano-clipart-piano-png.png" maxlength="200" disabled="" required="" id="id_image_url">
+
+        <label for="price">Price</label>
+        <input type="number" name="price" value="1000.0" step="any" disabled="" required="" id="id_price">
+
+        <input type="submit" value="Delete">
+    </form>
+</div>
+
+    </div>
+    <footer>
+    <div>Python Web Basics Exam Preparation @SoftUni</div>
+</footer>
+
+
+</body></html>
