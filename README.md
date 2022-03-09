@@ -6,7 +6,7 @@ The curriculum consists of several professional fields and subsequent specializa
 
 | Average Grade | Total Credits | Total Months |
 |:-------------:|:-------------:|:------------:|
-|     6.00      |    48/130     |    10/22     |
+|     6.00      |    63/130     |    16/22     |
 
 ## 1. Programming Basics with JavaScript - February 2021
 
@@ -63,9 +63,9 @@ The Python OOP course will teach you the principles of object-oriented programmi
 The Python Web module examines the basics of web-based technology and the most popular framework in the world of Python - Django. In addition, students will learn how to handle dynamic information by acquiring basic knowledge of working with databases. Students learn to build web applications, starting with simple applications that require basic knowledge of HTTP protocol and work with it, gradually leading to complex concepts. Throughout the training, students create web applications that face the problems of practice and begin to understand in depth the possibilities of technology. The module ends with the development and protection of their own web applications, which are the first step towards starting their career as software developers.
 
 #### 3.2.1 Python Web Basics - January 2022
-| Weeks | Grade |                                         Solved Problems                                          | Certificate |                               Course @SoftUni                                |
-|:-----:|:-----:|:------------------------------------------------------------------------------------------------:|:-----------:|:----------------------------------------------------------------------------:|
-|   8   |       | [Solutions](4.%20Python%20Web%20(January%202022)/4.1%20Python%20Web%20Basics%20(January%202022)) |             | [See Here](https://softuni.bg/trainings/3595/python-web-basics-january-2022) |
+| Weeks | Grade |                                         Solved Problems                                          |                              Certificate                              |                               Course @SoftUni                                |
+|:-----:|:-----:|:------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------:|:----------------------------------------------------------------------------:|
+|   8   | 6.00  | [Solutions](4.%20Python%20Web%20(January%202022)/4.1%20Python%20Web%20Basics%20(January%202022)) | [Click Here](https://softuni.bg/certificates/details/127674/4d4aaa2d) | [See Here](https://softuni.bg/trainings/3595/python-web-basics-january-2022) |
 
 
 In the Python Web Basics course we will lay the basics of Web programming with Python and Django. We will get acquainted with the basic principles of web development, such as HTTP Protocol, we will learn to work with databases (SQL), we will create our own server, and we will get acquainted with the basic concepts in the MVC architecture.
