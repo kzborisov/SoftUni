@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Lecture Demo</title>
+  </head>
+  <body>
+    <h1>Lecture Demo</h1>
+
+    <!-- <b> and <strong> are visualy identical,
+        b -> purely visual
+        strong -> tell the browser that the code is important -->
+
+    <!-- Links -->
+    <h2>Links</h2>
+    <!-- Link to a local page -->
+    <h3>Link to a local page</h3>
+    <a href="./welcome.html">Link to welcome.html</a>
+
+    <!-- Link to an external page -->
+    <h3>Link to an external page</h3>
+    <a href="https://www.youtube.com/">Link to YouTube</a>
+
+    <!-- Link to a local file - downloading it on click -->
+    <h3>Link to a local file</h3>
+    <a href="filename.txt">link to a file</a>
+
+    <!-- Link to a local element -->
+    <h3>Link to a local element</h3>
+    <a href="#about">Link to a local element</a>
+
+    <p id="about">About me</p>
+
+    <!-- Images -->
+    <h2>Images</h2>
+    <img src="./demo_img.jpg" alt="Demo img" width="400" height="300" />
+
+    <!-- Lists -->
+
+    <h2>Lists</h2>
+    <!-- Ordered lists -->
+
+    <h3>Ordered Lists</h3>
+    <ol type="A">
+      <li>First</li>
+      <li>Second</li>
+      <li>Third</li>
+    </ol>
+
+    <!-- Unordered Lists -->
+    <h3>Unordered Lists</h3>
+    <ul type="circle">
+      <li>First</li>
+      <li>Second</li>
+      <li>Third</li>
+    </ul>
+
+    <!-- Definition Lists -->
+    <h3>Definition Lists</h3>
+    <dl>
+      <dt>Html</dt>
+      <dd>A markup language</dd>
+
+      <dt>CSS</dt>
+      <dd>Language used to...</dd>
+    </dl>
+
+    <!-- Inline and Block Elements -->
+    <h3>Inline and Block Elements</h3>
+    <h4>Blokc elements</h4>
+    <p>
+      div and p are block elements. They fill the entire container width. Stack
+      vertically one after another.
+    </p>
+    <p style="border: 1px solid red; text-align: center">centered</p>
+    <p style="border: 1px solid blue">DIV</p>
+
+    <h4>Inline elements</h4>
+    <p>
+      span and a are inline element. It's shape is not always rectangular. Can
+      be split across multiple lines.
+    </p>
+    <p>
+      Lorem ipsum <span>dolor sit amet consectetur </span>adipisicing elit.
+      Nihil, rem.
+    </p>
+
+    <h4>Inline-Block elements</h4>
+    <p>Rectangles arranged one after anoter. Just like words in a a sentence</p>
+    <div style="text-align: justify">
+      <div style="display: inline-block; background: green">green</div>
+      <div style="display: inline-block; background: red">red block</div>
+    </div>
+  </body>
+</html>
