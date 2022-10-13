@@ -1,0 +1,22 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ccc;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.container article header h1 {
+  font-size: 28px;
+}
+
+.container article header p {
+  font-style: italic;
+  font-size: initial;
+}
+
+.container article p {
+  font-size: 24px;
+}
