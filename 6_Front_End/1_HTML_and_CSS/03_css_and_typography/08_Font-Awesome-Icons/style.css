@@ -1,0 +1,56 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css";
+
+body {
+  font-family: proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.nav {
+  width: 200px;
+  border: 1px solid #e3e3e3;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #f5f5f5;
+}
+
+.items {
+  list-style: none;
+  line-height: 25px;
+  margin-left: -15px;
+}
+
+.links {
+  text-decoration: none;
+  color: #c83025;
+}
+
+.link-icon {
+  width: 1.14em;
+  padding-right: 0.28em;
+}
+
+.btn {
+  padding: 4px 12px;
+  line-height: 20px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn.shopping {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #83a94c;
+}
+
+.btn.info {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #008ed0;
+}
+
+.btn.delete {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background-color: #cc4036;
+}
+
+.btn i {
+  margin-right: 5px;
+}

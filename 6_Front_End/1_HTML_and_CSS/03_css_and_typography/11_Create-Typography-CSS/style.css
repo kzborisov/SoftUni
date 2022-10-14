@@ -1,0 +1,40 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ul ul {
+  list-style-type: disc;
+}
+
+ul ul ul {
+  list-style-type: circle;
+}
+
+table {
+  width: 100%;
+}
+
+table th {
+  background-color: rgb(168, 167, 167);
+}
+
+tr:nth-child(even) {
+  border: 1px solid #ccc;
+  background-color: #ccc;
+}
+
+blockquote {
+    border-left: 1px solid rgb(221,221,221);
+    padding: 12px;
+    font-style: italic;
+}
