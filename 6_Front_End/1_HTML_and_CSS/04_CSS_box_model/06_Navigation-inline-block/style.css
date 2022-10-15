@@ -1,0 +1,39 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  padding: 25px;
+}
+
+.nav {
+  position: relative;
+  vertical-align: center;
+  display: inline-block;
+}
+
+.nav-items {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.nav .logo {
+  display: inline-block;
+  color: #000;
+}
+
+.nav .nav-items .nav-item {
+  display: inline-block;
+}
+
+.nav .logo {
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.nav .nav-items .nav-item .nav-link {
+  color: green;
+  text-decoration: none;
+  margin: 0 10px;
+}
