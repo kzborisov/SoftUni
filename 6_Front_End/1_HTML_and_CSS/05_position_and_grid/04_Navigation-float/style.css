@@ -1,0 +1,103 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "hr hr hr"
+    "main main aside";
+  padding: 40px;
+}
+
+a {
+  color: rgb(0, 102, 0);
+  text-decoration: none;
+}
+
+blockquote {
+  font-family: Georgia, serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+  margin: 10px 0;
+}
+
+h1 {
+  font-size: 1.2em;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+hr {
+  grid-area: hr;
+}
+
+img {
+  margin: 30px;
+}
+
+/* Navigation */
+
+.header {
+  grid-area: header;
+  height: 7vh;
+}
+
+.nav {
+  height: 100%;
+  margin: 0 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.6rem;
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-items {
+  list-style-type: none;
+  float: right;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-link {
+  margin: 0 10px;
+}
+
+/* Main */
+main {
+  grid-area: main;
+  margin: 40px;
+}
+
+main header img {
+  float: right;
+}
+
+main img {
+  float: left;
+}
+
+/* Aside */
+aside {
+  grid-area: aside;
+  margin: 40px;
+}

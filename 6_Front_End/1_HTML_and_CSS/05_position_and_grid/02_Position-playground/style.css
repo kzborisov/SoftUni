@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+}
+
+.viewport:nth-child(1) {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 90, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.viewport:nth-child(2) {
+  background: linear-gradient(
+    90deg,
+    rgba(36, 6, 0, 1) 0%,
+    rgba(255, 201, 0, 1) 100%
+  );
+}
+
+.viewport {
+  position: relative;
+}
+
+.card {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card img {
+  width: 300px;
+}
