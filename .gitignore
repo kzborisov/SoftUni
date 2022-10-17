@@ -155,3 +155,5 @@ cython_debug/
 .DS_Store
 .reports
 media
+dream-team.txt
+solve.js
