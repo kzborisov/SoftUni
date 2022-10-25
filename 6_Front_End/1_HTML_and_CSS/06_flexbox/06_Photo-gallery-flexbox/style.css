@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  padding: 2rem 8rem;
+  background-color: rgb(135, 135, 135);
+}
+.gallery {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.gallery .gallery__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery .gallery__list .gallery__item {
+  border: 5px solid black;
+  width: calc(33.3% - 24px);
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
