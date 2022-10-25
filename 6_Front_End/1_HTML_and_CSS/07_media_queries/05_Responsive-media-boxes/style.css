@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 2rem;
+  width: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.card .card__img img {
+  width: 100%;
+}
+
+.card .card__info {
+  padding: 1rem;
+}
+
+.card .card__info .btn {
+  background-color: rgb(0, 153, 0);
+  border: none;
+  outline: none;
+  padding: 0.75rem 1.25rem;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 1rem;
+  position: absolute;
+  right: 2rem;
+  bottom: 1rem;
+}

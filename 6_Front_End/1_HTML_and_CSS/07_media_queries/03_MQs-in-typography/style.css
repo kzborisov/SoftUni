@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 3rem;
+  font-family: Arial, serif;
+  background-color: rgb(238, 238, 238);
+  font-size: 12px;
+}
+
+h1,
+h2 {
+  font-family: Georgia, serif;
+}
+
+.header {
+  border-bottom: 2px solid #000;
+}
+
+.header .logo {
+  font-size: 2.5rem;
+  font-weight: 700;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Page */
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page .page__img {
+  border: 2px solid #000;
+  padding: 0.5rem;
+  float: right;
+  background-color: rgb(255, 255, 255);
+}
+
+.page .page__img:nth-child(1) {
+  float: right;
+}
+
+.page .page__img:nth-child(2) {
+  float: left;
+}
+
+.page .page__quote {
+  font-family: Georgia, serif;
+  width: 40%;
+  float: right;
+  border-left: 1px solid rgba(35, 35, 35, 0.3);
+  color: rgba(35, 35, 35, 0.3);
+  padding: 1rem;
+  font-style: italic;
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  body {
+    font-size: 21px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  body {
+    font-size: 23px;
+  }
+}
