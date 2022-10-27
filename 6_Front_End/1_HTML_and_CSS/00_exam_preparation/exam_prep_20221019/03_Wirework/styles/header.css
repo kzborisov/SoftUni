@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.8rem 4rem;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  line-height: 1;
+}
+
+.header .logo .logo__title {
+  font-size: 3.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.header .logo .logo__divider {
+  width: 2px;
+  height: 80%;
+  background-color: var(--clr-grey-dark);
+}
+
+.header .logo .logo__desc {
+  font-size: 1.5rem;
+  color: var(--clr-grey-dark);
+}
+
+.header .nav {
+  display: flex;
+  align-items: center;
+}
+
+.header .nav .nav__items {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.header .nav .nav__items .nav__item {
+  padding: 1.8rem 2rem;
+  background-color: var(--clr-grey-light);
+  color: var(--clr-grey-dark);
+}
+.header .nav .nav__items .nav__item .nav__link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color: inherit;
+}
+
+.header .nav .nav__items .nav__item.active {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+}

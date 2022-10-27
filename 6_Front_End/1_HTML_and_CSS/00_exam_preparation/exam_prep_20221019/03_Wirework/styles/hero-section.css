@@ -1,0 +1,34 @@
+#hero {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 132px);
+}
+
+#hero .hero__img--container {
+  height: 70%;
+  width: 100%;
+}
+
+#hero .hero__img--container .hero__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#hero .hero__text--container {
+  background-color: var(--clr-primary);
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#hero .hero__text--container .hero__text {
+  width: 70%;
+  color: var(--clr-grey-light);
+  line-height: 1.8;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}

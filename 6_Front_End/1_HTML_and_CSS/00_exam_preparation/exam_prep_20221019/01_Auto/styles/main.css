@@ -1,0 +1,85 @@
+@import url("./reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  width: 1400px;
+  height: 70vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem 0;
+}
+
+/* Info Div */
+#hero .hero__info {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#hero .hero__info .info__title {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+#hero .hero__info .info__text {
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+#hero .hero__info .features {
+}
+
+#hero .hero__info .features .features__item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#hero .hero__info .features .features__item:not(:last-child) {
+  margin-bottom: rem;
+}
+#hero .hero__info .features .features__item .features__img {
+  width: 60px;
+}
+
+#hero
+  .hero__info
+  .features
+  .features__item
+  .features__container
+  .features__title {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#hero
+  .hero__info
+  .features
+  .features__item
+  .features__container
+  .features__desc {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Img */
+#hero .hero__img {
+  object-fit: cover;
+  width: 55%;
+}

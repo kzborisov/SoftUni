@@ -1,0 +1,22 @@
+.footer {
+  padding: 7rem 4rem;
+  background-color: var(--clr-green);
+  color: var(--clr-grey-light);
+}
+
+.footer .footer__items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer .footer__items .footer__item {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.footer .footer__items .footer__item .footer_link {
+  color: var(--clr-white);
+  text-decoration: none;
+}
