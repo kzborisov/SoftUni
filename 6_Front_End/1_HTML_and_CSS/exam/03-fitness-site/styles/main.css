@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./hero.css");
+@import url("./coaches.css");
+@import url("./footer.css");
+
+:root {
+  --clr-red: #d01919;
+  --clr-white: #fff;
+  --clr-black: #000;
+  --clr-grey: #efefef;
+  --clr-grey-text: #adabba;
+
+  --margin-bottom: 2rem;
+}
+
+html {
+  font-family: PT Sans, sans-serif;
+}
+
+.btn--primary {
+  color: var(--clr-white);
+  background-color: var(--clr-red);
+  text-decoration: none;
+  font-weight: 700;
+  padding: 0.3rem 1.2rem;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+#section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 8rem;
+}
+
+#section .title--secondary {
+  font-size: 2.5rem;
+  /* font-weight: 600; */
+  margin-bottom: var(--margin-bottom);
+}
+
+#section .divider {
+  width: 50px;
+  background-color: var(--clr-red);
+  height: 3px;
+  margin-bottom: var(--margin-bottom);
+}
+
+#section .section__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#section .section__container .section__col {
+  /* padding: 1.5rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20%;
+}
+
+#section .section__container .section__col .col__img {
+  max-width: 64px;
+  margin-bottom: var(--margin-bottom);
+}
+
+#section .section__container .section__col .col__title {
+  color: var(--clr-red);
+  margin-bottom: 1rem;
+}
+
+#section .section__container .section__col .col__desc {
+  margin-bottom: var(--margin-bottom);
+}

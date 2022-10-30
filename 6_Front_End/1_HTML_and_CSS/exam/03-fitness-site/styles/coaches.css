@@ -1,0 +1,18 @@
+.coaches {
+  background-color: var(--clr-grey);
+}
+
+.coaches .section__container .section__col .col__title {
+  color: var(--clr-black) !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.coaches .section__container .section__col .col__subtitle {
+  color: var(--clr-red);
+}
+
+.coaches .section__container .section__col .col__desc {
+  color: var(--clr-grey-text);
+  margin-bottom: var(--margin-bottom);
+  font-size: 1.1rem;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section id="calculator">
+      <!-- Img -->
+      <div class="img__container">
+        <img
+          src="./image/calculator.png"
+          alt="Tread Mill run"
+          class="calculator___img"
+        />
+      </div>
+
+      <!-- Info -->
+      <div class="info__container">
+        <h1 class="info__title">FITNESS CALCULATOR</h1>
+        <div class="info__buttons">
+          <button class="units active">Standart units (US)</button>
+          <button class="units">Metric units</button>
+        </div>
+
+        <form action="" class="calculator__form">
+          <label for="gender">Gender</label>
+          <div class="gender__container">
+            <select name="gender" id="gender">
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+              <option value="other">Other</option>
+            </select>
+
+            <input type="number" placeholder="Years..." />
+          </div>
+
+          <label for="weight">Weight</label>
+          <input
+            type="number"
+            name="weight"
+            id="weight"
+            placeholder="Pounds..."
+          />
+
+          <label for="height">Height</label>
+
+          <div class="height__container">
+            <input
+              type="number"
+              name="height"
+              id="height--feet"
+              placeholder="Feet..."
+            />
+            <input
+              type="number"
+              name="height"
+              id="height--inch"
+              placeholder="Inches..."
+            />
+          </div>
+
+          <input type="submit" value="Calculate" class="btn" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

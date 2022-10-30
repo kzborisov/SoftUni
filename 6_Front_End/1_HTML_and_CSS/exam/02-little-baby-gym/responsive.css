@@ -1,0 +1,153 @@
+@media screen and (max-width: 600px) {
+  html {
+    font-family: PT Sans, sans-serif;
+  }
+  h1 {
+    /* font-size: 3rem; */
+    font-size: 2rem;
+  }
+  h2 {
+    /* font-size: 2.8rem; */
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 0.8rem;
+  }
+  h5 {
+    font-size: 0.6rem;
+  }
+  h6 {
+    font-size: 0.6rem;
+  }
+  .site-navigation ul {
+    display: none;
+  }
+
+  .site-main {
+    margin: unset;
+    overflow: hidden;
+  }
+
+  .entry-header-title {
+    font-weight: 400;
+    font-size: 4rem;
+    padding-bottom: 1rem;
+  }
+
+  .entry-header-title::first-letter {
+    font-size: 7rem;
+  }
+
+  .entry-header-description {
+    left: 75px;
+    top: 35px;
+  }
+
+  .button-primary {
+    width: 120px;
+    font-weight: bold;
+  }
+
+  .site-logos-container {
+    min-width: unset;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* logo section */
+
+  .site-logos {
+    padding: unset;
+  }
+
+  .site-logo:not(:last-child) {
+    margin-right: unset;
+  }
+
+  /* site-info section */
+
+  .site-information {
+    width: 100%;
+    background-size: 75px 100px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(122, 121, 121);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .site-information-text {
+    flex: unset;
+    padding: 4rem 2rem;
+  }
+  .site-information-image {
+    display: none;
+  }
+
+  .entry-title {
+    font-size: 4rem;
+    font-family: "Lobster", cursive;
+    font-weight: 300;
+  }
+
+  .entry-description {
+    width: 60%;
+    font-size: 1.3rem;
+    margin: 0 auto;
+  }
+
+  .entry-description {
+    width: 60%;
+    font-size: 1.3rem;
+    font-family: unset;
+    font-weight: bold;
+  }
+
+  .site-form {
+    margin-top: unset;
+  }
+  .site-form .entry-title {
+    font-size: 0.7rem;
+    font-family: unset;
+    letter-spacing: 0;
+  }
+
+  .site-form form > p {
+    flex-direction: column;
+  }
+
+  .site-form label,
+  .site-form input {
+    display: block;
+    width: 100%;
+  }
+
+  .site-form button {
+    margin-right: auto;
+  }
+
+  /*blog section*/
+  .site-blog-container {
+    margin-top: 0;
+    padding: 4rem 6rem;
+  }
+
+  .site-posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .site-post {
+    flex: unset;
+  }
+
+  /* footer */
+  .site-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}

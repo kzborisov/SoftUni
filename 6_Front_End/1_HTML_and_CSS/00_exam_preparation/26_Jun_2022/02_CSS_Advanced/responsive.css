@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    font-size: 12px;
+    overflow-x: hidden;
+  }
+  main {
+    width: 100%;
+  }
+
+  button {
+    display: none;
+  }
+
+  .left-to-right:first-child {
+    padding: 35px;
+  }
+
+  main .left-to-right article {
+    border-radius: 20%;
+    width: unset;
+    height: unset;
+    padding: 35px 40px;
+  }
+}
