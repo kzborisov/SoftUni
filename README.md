@@ -198,7 +198,7 @@ The course emphasizes practical exercises with HTML and CSS, through which it in
 web pages, implementation of fragments of sites and creating complete modern websites with good vision, modern structure
 and mobile support.
 
-#### 4.1.2 FRONT-END FRAMEWORK
+#### 4.1.2 FRONT-END FRAMEWORK - Angular
 
 | Weeks | Grade | Solved Problems | Certificate | Course @SoftUni |
 |:-----:|:-----:|:---------------:|:-----------:|:---------------:|
