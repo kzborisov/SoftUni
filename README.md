@@ -10,7 +10,7 @@ students go through a practical exam, demonstrating the acquired skills.
 
 | Average Grade | Total Credits | Total Months |
 |:-------------:|:-------------:|:------------:|
-|     6.00      |    78/130     |    18/22     |
+|     6.00      |    90/130     |    20/22     |
 
 ## 1. Programming Basics with JavaScript - February 2021
 
@@ -86,12 +86,15 @@ attention to component testing (writing unit tests) and the concept of Test Driv
 |   30    |   4    |
 
 The Python Web module examines the basics of web-based technology and the most popular framework in the world of Python
+
 - Django. In addition, students will learn how to handle dynamic information by acquiring basic knowledge of working
-with databases. Students learn to build web applications, starting with simple applications that require basic knowledge
-of HTTP protocol and work with it, gradually leading to complex concepts. Throughout the training, students create web
-applications that face the problems of practice and begin to understand in depth the possibilities of technology. The
-module ends with the development and protection of their own web applications, which are the first step towards starting
-their career as software developers.
+  with databases. Students learn to build web applications, starting with simple applications that require basic
+  knowledge
+  of HTTP protocol and work with it, gradually leading to complex concepts. Throughout the training, students create web
+  applications that face the problems of practice and begin to understand in depth the possibilities of technology. The
+  module ends with the development and protection of their own web applications, which are the first step towards
+  starting
+  their career as software developers.
 
 #### 3.2.1 Python Web Basics - January 2022
 
@@ -179,9 +182,9 @@ structure and mobile support.
 
 #### 4.1.1 HTML & CSS
 
-| Weeks | Grade | Solved Problems | Certificate | Course @SoftUni |
-|:-----:|:-----:|:---------------:|:-----------:|:---------------:|
-|   7   |       |  [Solutions]()  |             |  [See Here]()   |
+| Weeks | Grade |             Solved Problems              |                              Certificate                              |                              Course @SoftUni                              |
+|:-----:|:-----:|:----------------------------------------:|:---------------------------------------------------------------------:|:-------------------------------------------------------------------------:|
+|   7   | 6.00  | [Solutions](6_Front_End/1_HTML_and_CSS/) | [Click Here](https://softuni.bg/certificates/details/147221/1da1fd2b) | [See Here](https://softuni.bg/trainings/3855/html-and-css-september-2022) |
 
 The aim of the course "HTML & CSS" is to lay the basic knowledge of web technologies and in particular acquaintance with
 HTML5 and CSS3. Gain basic knowledge in web development, web browsers, HTML / CSS / DOM development tools and develop
