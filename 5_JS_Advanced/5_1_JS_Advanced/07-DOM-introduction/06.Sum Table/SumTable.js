@@ -1,11 +1,9 @@
 function sumTable() {
-    const data = Array.from(document.querySelectorAll('tr')).slice(1, -1);
-    let sum = 0;
+  const prices = [...document.querySelectorAll("tr td:last-child")].map((el) =>
+    Number(el.textContent)
+  );
 
-    for (let i = 0; i < data.length; i++) {
-        console.log(data[i].lastChild);
-        sum += Number(data[i].lastChild.textContent);
-    }
+  const result = prices.reduce((acc, red) => acc + red, 0);
 
-    document.getElementById('sum').textContent = sum;
+  document.getElementById("sum").textContent = result;
 }

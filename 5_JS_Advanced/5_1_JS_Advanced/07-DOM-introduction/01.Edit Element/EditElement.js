@@ -1,7 +1,6 @@
-function editElement(element, match, replacer) {
-    const text = element.textContent;
-
-    const pattern = new RegExp(match, 'g');
-    const result = text.replace(pattern, replacer);
-    element.textContent = result;
+function editElement(elem, match, replacer) {
+  const pattern = new RegExp(match, "g");
+  const text = elem.textContent;
+  const result = text.replace(pattern, replacer);
+  elem.textContent = result;
 }

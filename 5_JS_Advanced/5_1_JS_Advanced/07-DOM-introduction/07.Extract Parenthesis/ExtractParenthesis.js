@@ -1,13 +1,13 @@
 function extract(content) {
-    const text = document.getElementById(content).textContent;
-    let result = [];
+  const text = document.getElementById(content).textContent;
+  let result = [];
 
-    let pattern = /\(([^)]+)\)/g;
-    let match = pattern.exec(text);
-    while (match) {
-        result.push(match[1]);
-        match = pattern.exec(text);
-    }
+  let pattern = /\(([^)]+)\)/g;
+  let match = pattern.exec(text);
+  while (match) {
+    result.push(match[1]);
+    match = pattern.exec(text);
+  }
 
-    return result.join('; ');
+  return result.join("; ");
 }
